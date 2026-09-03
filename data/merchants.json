@@ -1,0 +1,138 @@
+[
+    {
+        "merchant_id": "M1001",
+        "merchant_name": "Demo Store",
+
+        "merchant_type": "E-commerce",
+
+        "settlement": {
+            "status": "On Hold",
+            "amount": 240000,
+            "expected_date": "2026-09-03",
+            "days_delayed": 2
+        },
+
+        "kyc": {
+            "status": "Pending",
+            "missing_document": "Business Proof"
+        },
+
+        "payments": {
+            "last_payment": "Successful",
+            "last_payment_amount": 15000,
+            "successful_today": 42,
+            "failed_today": 3,
+            "failure_rate": 6.7
+        },
+
+        "refunds": {
+            "pending_count": 2,
+            "pending_amount": 8500
+        },
+
+        "risk": {
+            "risk_score": 78,
+            "risk_level": "HIGH",
+            "unusual_activity": false
+        },
+
+        "support": {
+            "open_cases": 2,
+            "previous_cases": [
+                "KYC verification pending",
+                "Settlement delayed"
+            ]
+        }
+    },
+
+    {
+        "merchant_id": "M1002",
+        "merchant_name": "Tech World",
+
+        "merchant_type": "Electronics",
+
+        "settlement": {
+            "status": "Completed",
+            "amount": 85000,
+            "expected_date": "2026-09-02",
+            "days_delayed": 0
+        },
+
+        "kyc": {
+            "status": "Verified",
+            "missing_document": null
+        },
+
+        "payments": {
+            "last_payment": "Failed",
+            "last_payment_amount": 8500,
+            "successful_today": 18,
+            "failed_today": 12,
+            "failure_rate": 40.0
+        },
+
+        "refunds": {
+            "pending_count": 1,
+            "pending_amount": 2500
+        },
+
+        "risk": {
+            "risk_score": 64,
+            "risk_level": "MEDIUM",
+            "unusual_activity": true
+        },
+
+        "support": {
+            "open_cases": 3,
+            "previous_cases": [
+                "Payment failures",
+                "Transaction declined"
+            ]
+        }
+    },
+
+    {
+        "merchant_id": "M1003",
+        "merchant_name": "Fashion Hub",
+
+        "merchant_type": "Fashion",
+
+        "settlement": {
+            "status": "Processing",
+            "amount": 125000,
+            "expected_date": "2026-09-04",
+            "days_delayed": 0
+        },
+
+        "kyc": {
+            "status": "Verified",
+            "missing_document": null
+        },
+
+        "payments": {
+            "last_payment": "Successful",
+            "last_payment_amount": 12000,
+            "successful_today": 67,
+            "failed_today": 4,
+            "failure_rate": 5.6
+        },
+
+        "refunds": {
+            "pending_count": 4,
+            "pending_amount": 18000
+        },
+
+        "risk": {
+            "risk_score": 32,
+            "risk_level": "LOW",
+            "unusual_activity": false
+        },
+
+        "support": {
+            "open_cases": 1,
+            "previous_cases": [
+                "Refund pending"
+            ]
+        }
+    }
+]
